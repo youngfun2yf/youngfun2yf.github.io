@@ -1,5 +1,25 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
-  "target" : { "namespace": "android_app", "package_name": "com.poly.mpothen.android",
-               "sha256_cert_fingerprints": ["69:EA:63:31:34:17:21:DF:1B:E9:42:F1:7D:8B:00:79:2D:4F:7D:37:66:54:B2:A8:F7:B0:1D:4E:5B:32:BF:04"] }
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.poly.mpothen.android",
+    "sha256_cert_fingerprints":
+    ["69:EA:63:31:34:17:21:DF:1B:E9:42:F1:7D:8B:00:79:2D:4F:7D:37:66:54:B2:A8:F7:B0:1D:4E:5B:32:BF:04"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://youngfun2yf.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.poly.mpothen.android",
+    "sha256_cert_fingerprints":
+    ["69:EA:63:31:34:17:21:DF:1B:E9:42:F1:7D:8B:00:79:2D:4F:7D:37:66:54:B2:A8:F7:B0:1D:4E:5B:32:BF:04"]
+  }
 }]
